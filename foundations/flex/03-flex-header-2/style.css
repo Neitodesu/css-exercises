@@ -21,6 +21,7 @@ body {
 .left {
   display: flex;
   justify-content: flex-start;
+  gap: 16px;
 }
 
 .right {
@@ -58,6 +59,7 @@ a {
 }
 
 ul {
+  padding: 0;
   list-style-type: none;
   display: flex;
   gap: 16px;
